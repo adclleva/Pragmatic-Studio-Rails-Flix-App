@@ -1,6 +1,5 @@
 <ul>
-  <%= @movies%>
-  <li>Iron Man</li>
-  <li>Super Man</li>
-  <li>Spider-Man</li>
-  </ul>
+  <% @movies.each do |movie| %>
+  <li><%= movie%></li>
+  <% end %>
+</ul>
